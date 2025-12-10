@@ -1,0 +1,76 @@
+# ========================
+#   PYTHON CACHE
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PEP-582 Local packages
+__pypackages__/
+
+# ========================
+#   VIRTUAL ENVIRONMENTS
+# ========================
+.venv/
+venv/
+env/
+ENV/
+
+# ========================
+#   ENVIRONMENT FILES
+# ========================
+.env
+.env.*
+.env.docker
+
+# ========================
+#   IDE / EDITORS
+# ========================
+.vscode/
+.idea/
+
+# ========================
+#   LOGS & TEMP FILES
+# ========================
+*.log
+*.tmp
+*.bak
+*.pid
+
+# ========================
+#   DATABASE / DATA FILES
+# ========================
+*.sqlite3
+*.db
+/data/
+tmp/
+
+# ========================
+#   TESTING / COVERAGE
+# ========================
+.pytest_cache/
+.coverage
+*.coverage
+coverage.xml
+htmlcov/
+*.cover
+
+# ========================
+#   BUILD & DISTRIBUTION
+# ========================
+build/
+dist/
+downloads/
+eggs/
+*.egg-info/
+.wheelhouse/
+
+# ========================
+#   JUPYTER NOTEBOOK
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+#   DOCKER
+# ========================
+docker-compose.override.yml
